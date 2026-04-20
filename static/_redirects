@@ -1,0 +1,9 @@
+/user/intro / 301
+/user/getting-started/installation /getting-started/install 301
+/user/getting-started/first-overlay /getting-started/first-run 301
+/user/guides/managing-overlays /vr-overlays 301
+/user/steam-cloud-settings /desktop-control-center 301
+/user/faq /faq 301
+/papers/* / 302
+/specs/* / 302
+/proposals/* / 302
