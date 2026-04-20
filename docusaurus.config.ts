@@ -43,7 +43,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/vros-social-card.jpg",
+    image: "img/vros-social-card.png",
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
