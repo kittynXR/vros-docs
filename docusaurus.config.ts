@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "vrOS User Guide",
-  tagline: "Install, configure, and operate vrOS for release builds.",
+  title: "vrOS Docs",
+  tagline: "Setup and use vrOS overlays.",
   favicon: "img/favicon.ico",
 
   url: "https://docs.vros.cat",
