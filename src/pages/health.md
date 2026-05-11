@@ -6,113 +6,124 @@ hide_table_of_contents: true
 
 # Health & Safety Warning
 
-**Last Updated: January 25, 2025**
+**Last Updated: May 11, 2026**
 
 ## Important Health and Safety Information
 
-Please read these health and safety warnings before using vrOS (Virtual Reality Operating System). These warnings are designed to ensure safe use of our VR software and compliance with general VR safety guidelines.
+Read these health and safety warnings before using vrOS (Virtual Reality Operating System). These warnings are based on general VR safety guidance and apply to anyone using a head-mounted display.
 
-## General Precautions
+:::caution vrOS does not add software-side comfort enforcement
+vrOS is a SteamVR overlay system. It does **not** implement automatic break reminders, neck-angle restrictions, motion smoothing, boundary haptics, or any other comfort enforcement features. Use the safety tools provided by your **headset runtime** (SteamVR play area / guardian boundary, headset-level comfort settings) and follow the practices below.
+:::
 
-### Consult Your Physician
-- **Before using VR**: Consult your doctor if you are pregnant, elderly, have pre-existing binocular vision abnormalities or psychiatric disorders, suffer from a heart condition or other serious medical condition.
-- **Seizure Warning**: Some people (about 1 in 4000) may have severe dizziness, seizures, epileptic seizures or blackouts triggered by light flashes or patterns while using VR, even if they have never had a seizure or blackout before.
+## General precautions
 
-### Age Restrictions
-- vrOS is not recommended for children under the age of 13
-- Adults should monitor children (age 13 and older) during and after use for any of the symptoms described below
-- Prolonged use should be avoided, as this could negatively impact hand-eye coordination, balance, and multi-tasking ability
+### Consult your physician
 
-## Safe Environment
+- **Before using VR**: Consult your doctor if you are pregnant, elderly, have pre-existing binocular vision abnormalities or psychiatric disorders, suffer from a heart condition, or have other serious medical conditions.
+- **Seizure warning**: Some people (about 1 in 4000) may experience severe dizziness, seizures, epileptic seizures, or blackouts triggered by light flashes or patterns while using VR, even with no prior history.
 
-### Clear Your Play Space
+### Age restrictions
+
+- vrOS is not recommended for children under the age of 13.
+- Adults should monitor children (age 13 and older) during and after use for any of the symptoms described below.
+- Prolonged use should be avoided, as it may negatively affect hand-eye coordination, balance, and multi-tasking.
+
+## Safe environment
+
+### Clear your play space
+
 Before using vrOS:
-- Ensure your play area is clear of furniture, objects, stairs, balconies, windows, walls, and other hazards
-- Remember that while in VR, you may not be aware of your surroundings
-- vrOS boundary systems can help, but are not foolproof
-- Never use VR outdoors or near roads, water, or other dangerous areas
 
-### Stay Seated When Possible
-- vrOS is designed to work excellently while seated
-- Many productivity features are optimized for seated use
-- Standing use increases risk of loss of balance and falls
+- Ensure your play area is clear of furniture, objects, stairs, balconies, windows, walls, and other hazards.
+- Remember that while in VR you may not be aware of your surroundings.
+- Use your headset's boundary/guardian system. These help, but are not foolproof.
+- Never use VR outdoors or near roads, water, or other dangerous areas.
 
-## Health Warnings
+### Stay seated when possible
 
-### Motion Sickness
-Virtual Reality can cause motion sickness in some users. Symptoms include:
+- Seated use reduces the risk of loss of balance and falls.
+- Standing or room-scale use increases that risk and requires more cleared space.
+
+## Health warnings
+
+### Motion sickness
+
+VR can cause motion sickness. Symptoms include:
+
 - Nausea
-- Discomfort  
+- Discomfort
 - Disorientation
 - Headache
 - Fatigue
 
 **If you experience any discomfort:**
-1. Stop using vrOS immediately
-2. Remove your headset
-3. Rest until symptoms subside
-4. Do not drive or operate machinery until fully recovered
 
-### Eye Strain and Fatigue
+1. Stop using vrOS immediately.
+2. Remove your headset.
+3. Rest until symptoms subside.
+4. Do not drive or operate machinery until fully recovered.
+
+### Eye strain and fatigue
+
 Extended use may cause:
+
 - Eye strain
 - Eye fatigue
 - Eye discomfort
 - Blurred vision
 
 **Prevention:**
-- Take a 10-15 minute break every 30 minutes
-- vrOS includes built-in break reminders (enable in Settings)
-- Adjust headset IPD (interpupillary distance) settings
-- Ensure proper headset fit
 
-### Repetitive Stress Injuries
-Like other computer use, VR may cause:
+- Take a 10–15 minute break every 30 minutes.
+- Adjust your headset's IPD (interpupillary distance) setting.
+- Ensure proper headset fit.
+- Maintain a sensible distance for any captured overlays you read in vrOS — text that feels too close is a comfort problem.
+
+### Repetitive stress injuries
+
+Like other extended computer or controller use, VR may cause:
+
 - Muscle, joint, or skin discomfort
-- Tingling, numbness, burning or stiffness
+- Tingling, numbness, burning, or stiffness
 
 **If symptoms occur:**
-- Stop and rest for several hours
-- Consult a doctor if symptoms persist
 
-## vrOS-Specific Safety Features
+- Stop and rest for several hours.
+- Consult a doctor if symptoms persist.
 
-### Ergonomic Enforcement
-- vrOS automatically prevents overlays from being placed in positions that require uncomfortable neck angles
-- The system enforces regular micro-breaks
-- Haptic warnings alert you when approaching boundaries
+## Exiting vrOS quickly
 
-### Comfort Settings
-- Motion smoothing options to reduce nausea
-- Adjustable overlay distances for eye comfort
-- Customizable break reminders
-- Seated mode optimizations
+If you need to stop using vrOS for any reason, the fastest options are:
 
-### Emergency Exit
-- Press and hold both grip buttons for 3 seconds to instantly close all overlays
-- System Menu button always accessible for quick exit
-- Automatic pause when headset is removed
+- **Remove your headset.** Always available, always works.
+- **Open the SteamVR system menu** to pause or quit SteamVR.
+- **Right-click the vrOS icon in the Windows system tray → Quit vrOS** to fully shut down the desktop side.
 
-## Best Practices
+See [Shortcuts & Gestures](/shortcuts) for the full tray menu and recovery actions.
 
-1. **Start Slowly**: Begin with short sessions (15-30 minutes) and gradually increase
-2. **Stay Hydrated**: Keep water nearby
-3. **Good Posture**: Maintain proper seated posture
-4. **Proper Lighting**: Ensure your room has adequate lighting
-5. **Clean Equipment**: Keep lenses clean for optimal clarity
-6. **Listen to Your Body**: Stop immediately if you feel unwell
+## Best practices
 
-## Medical Conditions
+1. **Start slowly** — begin with short sessions (15–30 minutes) and gradually increase.
+2. **Stay hydrated** — keep water nearby.
+3. **Good posture** — maintain proper seated posture; adjust your chair and headset for neutral neck angle.
+4. **Proper lighting** — ensure your room has adequate lighting for any external tracking.
+5. **Clean equipment** — keep lenses clean for optimal clarity.
+6. **Listen to your body** — stop immediately if you feel unwell.
 
-Do NOT use vrOS if you have:
-- Epilepsy or seizure disorders (without medical clearance)
+## Medical conditions
+
+Do **not** use vrOS if you have any of the following without first consulting a physician:
+
+- Epilepsy or seizure disorders
 - Severe motion sickness susceptibility
 - Serious heart conditions
 - Psychiatric disorders that may be aggravated by VR
 
-## Interference with Medical Devices
+## Interference with medical devices
 
 VR headsets may contain magnets or emit radio waves that could affect:
+
 - Cardiac pacemakers
 - Hearing aids
 - Defibrillators
@@ -122,14 +133,17 @@ Consult your physician and device manufacturer before use.
 
 ## Disclaimer
 
-Use of vrOS is at your own risk. Cute & Funny LLC d/b/a catnet systems assumes no responsibility for injuries or property damage resulting from use or misuse of our software. By using vrOS, you acknowledge that you have read and understood these warnings.
+Use of vrOS is at your own risk. catnet systems assumes no responsibility for injuries or property damage resulting from use or misuse of the software. By using vrOS, you acknowledge that you have read and understood these warnings.
 
 ## Contact
 
 For health and safety questions:
-- Email: safety@vros.cat
-- Documentation: https://docs.vros.cat
+
+- Email: **safety@vros.cat**
+- Documentation: [docs.vros.cat](https://docs.vros.cat)
+
+catnet systems is operated by Cute & Funny LLC, a New Mexico limited liability company.
 
 ---
 
-*vrOS is committed to user safety. These warnings are based on industry standards and best practices for VR safety.*
+*These warnings are based on general VR industry safety guidance.*
