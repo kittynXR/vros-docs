@@ -14,10 +14,10 @@ const config: Config = {
   organizationName: "kittynXR",
   projectName: "vros-docs",
 
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: "warn",
+      onBrokenMarkdownLinks: "throw",
     },
   },
 
@@ -65,6 +65,11 @@ const config: Config = {
           position: "left",
         },
         {
+          to: "/shortcuts",
+          label: "Shortcuts",
+          position: "left",
+        },
+        {
           to: "/getting-started/install",
           label: "Install",
           position: "left",
@@ -102,6 +107,10 @@ const config: Config = {
         {
           title: "Docs",
           items: [
+            {
+              label: "Shortcuts & Gestures",
+              to: "/shortcuts",
+            },
             {
               label: "Install",
               to: "/getting-started/install",

@@ -1,10 +1,9 @@
 @echo off
 REM Deploy script for Cloudflare Pages (Windows)
-REM Project: catnet
+REM Project: vros-docs
 
 echo Deploying documentation to Cloudflare Pages...
 
-REM Change to docs-website directory
 cd /d "%~dp0"
 
 REM Install dependencies if needed
@@ -24,8 +23,8 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 REM Deploy to Cloudflare Pages
-echo Deploying to Cloudflare Pages (project: catnet)...
-call npx wrangler pages deploy build --project-name=catnet --branch=main
+echo Deploying to Cloudflare Pages (project: vros-docs)...
+call npx wrangler pages deploy build --project-name=vros-docs --branch=main
 
 REM Check deployment status
 if %ERRORLEVEL% EQU 0 (

@@ -8,6 +8,15 @@ sidebar_position: 7
 
 Use this page for the fast checks that solve most release-era setup problems.
 
+## First: try the system tray
+
+Right-click the **vrOS icon in the Windows system tray** before anything else. The menu has two one-click recovery actions that solve most "I can't see the thing" problems:
+
+- **Reset vrOS Dashboard Overlay** — recenters the in-VR dash if it drifted, ended up behind you, or won't show in SteamVR.
+- **Reset Desktop Position** — recenters the Desktop Control Center window if it ended up off-screen after a monitor change or resolution swap.
+
+Full tray menu is documented in [Shortcuts & Gestures](/shortcuts).
+
 ## vrOS does not appear in SteamVR
 
 1. Restart SteamVR after the first install or update.

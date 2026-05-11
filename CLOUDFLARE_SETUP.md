@@ -15,7 +15,7 @@
    - **Framework preset**: None (or Docusaurus if available)
    - **Build command**: `npm run build`
    - **Build output directory**: `build`
-   - **Root directory**: `docs-website`
+   - **Root directory**: `/` (repo root)
    - **Node.js version**: 18
 
 4. **Environment variables** (if needed)
@@ -63,9 +63,8 @@ npm install -g wrangler
 wrangler login
 
 # Deploy
-cd docs-website
 npm run build
-wrangler pages deploy build --project-name=catnet --branch=main
+wrangler pages deploy build --project-name=vros-docs --branch=main
 ```
 
 ## Features You Get
@@ -84,6 +83,6 @@ wrangler pages deploy build --project-name=catnet --branch=main
 Framework: None
 Build command: npm run build
 Output directory: build
-Root directory: docs-website
+Root directory: /
 Node version: 18
 ```

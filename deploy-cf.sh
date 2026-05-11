@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # Deploy script for Cloudflare Pages
-# Project: catnet
+# Project: vros-docs
 
 echo "🚀 Deploying documentation to Cloudflare Pages..."
 
-# Change to docs-website directory
 cd "$(dirname "$0")"
 
 # Install dependencies if needed
@@ -25,8 +24,8 @@ if [ $? -ne 0 ]; then
 fi
 
 # Deploy to Cloudflare Pages
-echo "☁️  Deploying to Cloudflare Pages (project: catnet)..."
-npx wrangler pages deploy build --project-name=catnet --branch=main
+echo "☁️  Deploying to Cloudflare Pages (project: vros-docs)..."
+npx wrangler pages deploy build --project-name=vros-docs --branch=main
 
 # Check deployment status
 if [ $? -eq 0 ]; then
