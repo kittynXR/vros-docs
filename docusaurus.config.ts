@@ -43,7 +43,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/vros-social-card.jpg",
+    image: "img/vros-social-card.png",
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
@@ -53,8 +53,8 @@ const config: Config = {
       title: "vrOS",
       logo: {
         alt: "vrOS Logo",
-        src: "img/logo.png",
-        srcDark: "img/logo.png",
+        src: "img/logo.svg",
+        srcDark: "img/logo.svg",
         width: 32,
         height: 32,
       },
